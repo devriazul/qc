@@ -1,0 +1,1758 @@
+window.QCLAB_DATA = {
+  "title": "QCLAB | Testing, Inspection & Calibration Services in Bangladesh",
+  "meta_desc": "QCLAB is a trusted provider of Testing, Inspection, and Calibration services in Bangladesh ensuring quality, reliability, and compliance for industries.",
+  "meta_keywords": "QCLAB, Testing Bangladesh, Calibration Services, Inspection Bangladesh, Laboratory Testing,\n    Equipment Calibration, Quality Control, Testing Lab Bangladesh, Industrial Calibration, Testing and Inspection\n    Bangladesh",
+  "logo": "https://www.qclab.com.bd/storage/logo/urfP0vVnKliQy2O0CFdRnZCPUgUe0bgaxtlOYYeQ.png",
+  "top_navigation": [
+    {
+      "name": "About Us",
+      "href": "https://qclab.com.bd/about-us",
+      "children": []
+    },
+    {
+      "name": "Services",
+      "href": "https://qclab.com.bd/services",
+      "children": [
+        {
+          "title": "Civil Engineering Testing Services",
+          "href": "https://qclab.com.bd/civil-service"
+        },
+        {
+          "title": "Condition Monitoring Services",
+          "href": "https://qclab.com.bd/condition-monitoring-services"
+        },
+        {
+          "title": "Consultancy",
+          "href": "https://qclab.com.bd/consultancy"
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "href": "https://qclab.com.bd/projects",
+      "children": [
+        {
+          "title": "Upcoming Projects",
+          "href": "https://qclab.com.bd/Upcoming"
+        },
+        {
+          "title": "Ongoing Projects",
+          "href": "https://qclab.com.bd/Ongoing"
+        },
+        {
+          "title": "Completed Projects",
+          "href": "https://qclab.com.bd/Completed"
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "href": "https://qclab.com.bd/support",
+      "children": [
+        {
+          "title": "Repairs, Parts & Rentals",
+          "href": "https://qclab.com.bd/repairs-parts-rentals"
+        },
+        {
+          "title": "Installation & Commissioning",
+          "href": "https://qclab.com.bd/installation-commissioning"
+        },
+        {
+          "title": "Calibration & Verification",
+          "href": "https://qclab.com.bd/calibration--verification"
+        },
+        {
+          "title": "Training",
+          "href": "https://qclab.com.bd/training"
+        }
+      ]
+    },
+    {
+      "name": "Industries",
+      "href": "https://qclab.com.bd/industries",
+      "children": [
+        {
+          "title": "Power & Energy",
+          "href": "https://qclab.com.bd/power-energy"
+        },
+        {
+          "title": "Education",
+          "href": "https://qclab.com.bd/education"
+        },
+        {
+          "title": "Disaster Management",
+          "href": "https://qclab.com.bd/disaster-management"
+        },
+        {
+          "title": "Road & Transportation",
+          "href": "https://qclab.com.bd/road-transportation"
+        },
+        {
+          "title": "Geometrical Properties",
+          "href": "https://qclab.com.bd/geometrical-properties"
+        }
+      ]
+    },
+    {
+      "name": "Resources",
+      "href": "#",
+      "children": [
+        {
+          "title": "Blog",
+          "href": "https://qclab.com.bd/blog"
+        },
+        {
+          "title": "Ongoing Projects",
+          "href": "https://qclab.com.bd/Ongoing"
+        },
+        {
+          "title": "Completed Projects",
+          "href": "https://qclab.com.bd/Completed"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "href": "https://qclab.com.bd/contact-us",
+      "children": []
+    }
+  ],
+  "categories": [
+    {
+      "category": "Aggregates",
+      "groups": [
+        {
+          "group": "Geometrical Properties",
+          "href": "https://qclab.com.bd/geometrical-properties",
+          "items": [
+            {
+              "title": "Assessment of Fines",
+              "href": "https://qclab.com.bd/assessment-of-fines"
+            },
+            {
+              "title": "Determination of Particle Shape",
+              "href": "https://qclab.com.bd/determination-of-particle-shape"
+            },
+            {
+              "title": "Sample Splitters",
+              "href": "https://qclab.com.bd/sample-splitters"
+            }
+          ]
+        },
+        {
+          "group": "Mechanical and Physical Properties",
+          "href": "https://qclab.com.bd/mechanical-and-physical-properties",
+          "items": [
+            {
+              "title": "Chemical Properties",
+              "href": "https://qclab.com.bd/chemical-properties"
+            },
+            {
+              "title": "Determination of Density and Water Absorption",
+              "href": "https://qclab.com.bd/determination-of-density-and-water-absorption"
+            },
+            {
+              "title": "Moisture Measurement",
+              "href": "https://qclab.com.bd/moisture-measurement"
+            },
+            {
+              "title": "Resistance to Fragmentation, Abrasion and Wear",
+              "href": "https://qclab.com.bd/resistance-to-fragmentation-abrasion-and-wear"
+            },
+            {
+              "title": "Thermal Properties",
+              "href": "https://qclab.com.bd/thermal-properties"
+            }
+          ]
+        },
+        {
+          "group": "Sample Grading",
+          "href": "https://qclab.com.bd/sample-grading",
+          "items": [
+            {
+              "title": "Sieve Shakers",
+              "href": "https://qclab.com.bd/sieve-shakers"
+            },
+            {
+              "title": "Sieves & Screen Trays",
+              "href": "https://qclab.com.bd/sieves--screen-trays"
+            }
+          ]
+        },
+        {
+          "group": "Aggregate Crushing Value (ACV) Device",
+          "href": "https://qclab.com.bd/aggregate-crushing-value-acv-device",
+          "items": []
+        },
+        {
+          "group": "Rock Testing",
+          "href": "https://qclab.com.bd/rock-testing",
+          "items": [
+            {
+              "title": "Aggregate Crushing Value (ACV) Test",
+              "href": "https://qclab.com.bd/aggregate-crushing-value-acv-test"
+            },
+            {
+              "title": "Hoek Cells for Triaxial Rock Testing in Bangladesh",
+              "href": "https://qclab.com.bd/hoek-cells-for-triaxial-rock-testing-in-bangladesh"
+            },
+            {
+              "title": "Aggregate Impact Value (AIV) Test in Bangladesh",
+              "href": "https://qclab.com.bd/aggregate-impact-value-aiv-test-in-bangladesh"
+            },
+            {
+              "title": "Scratch Hardness Tester For Rock Scratch Hardness Testing Equipment in Bangladesh",
+              "href": "https://qclab.com.bd/scratch-hardness-tester-for-rock-scratch-hardness-testing-equipment-in-bangladesh"
+            },
+            {
+              "title": "Mohs Scale of Hardness",
+              "href": "https://qclab.com.bd/mohs-scale-of-hardness"
+            },
+            {
+              "title": "Point Load Tester",
+              "href": "https://qclab.com.bd/point-load-tester"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Bitumen & Asphalt",
+      "groups": [
+        {
+          "group": "Asphalt Mix Composition Analysis",
+          "href": "https://qclab.com.bd/-asphalt-mix-composition-analysis",
+          "items": [
+            {
+              "title": "Automatic Binder Extraction Systems",
+              "href": "https://qclab.com.bd/automatic-binder-extraction-systems"
+            },
+            {
+              "title": "Binder and Solvent Recovery",
+              "href": "https://qclab.com.bd/binder-and-solvent-recovery"
+            },
+            {
+              "title": "Manual Binder Extraction Systems - Cold Method",
+              "href": "https://qclab.com.bd/manual-binder-extraction-systems-cold-method"
+            },
+            {
+              "title": "Manual Binder Extraction Systems - Hot Method",
+              "href": "https://qclab.com.bd/manual-binder-extraction-systems-hot-method"
+            },
+            {
+              "title": "Other Asphalt Mix Properties",
+              "href": "https://qclab.com.bd/other-asphalt-mix-properties"
+            }
+          ]
+        },
+        {
+          "group": "Asphalt Mix Sample Preparation",
+          "href": "https://qclab.com.bd/asphalt-mix-sample-preparation",
+          "items": [
+            {
+              "title": "Asphalt Compactors (Roller and PreSBox Compactors)",
+              "href": "https://qclab.com.bd/asphalt-compactors-roller-and-presbox-compactors"
+            },
+            {
+              "title": "Asphalt Mixers",
+              "href": "https://qclab.com.bd/asphalt-mixers"
+            },
+            {
+              "title": "Cutting and Coring Machines",
+              "href": "https://qclab.com.bd/cutting-and-coring-machines"
+            }
+          ]
+        },
+        {
+          "group": "Dynamic Asphalt Mix Testing Systems",
+          "href": "https://qclab.com.bd/dynamic-asphalt-mix-testing-systems",
+          "items": [
+            {
+              "title": "AMPT - Asphalt Mixture Performance Tester",
+              "href": "https://qclab.com.bd/ampt-asphalt-mixture-performance-tester"
+            },
+            {
+              "title": "AsphaltQube - Modular EmS Dynamic Asphalt Testers",
+              "href": "https://qclab.com.bd/asphaltqube---modular-ems-dynamic-asphalt-testers"
+            },
+            {
+              "title": "Dynamic Testing Accessories",
+              "href": "https://qclab.com.bd/dynamic-testing-accessories"
+            },
+            {
+              "title": "Stand-Alone Asphalt Testers",
+              "href": "https://qclab.com.bd/stand-alone-asphalt-testers"
+            },
+            {
+              "title": "Universal Testing Machines UTM",
+              "href": "https://qclab.com.bd/universal-testing-machines-utm"
+            }
+          ]
+        },
+        {
+          "group": "Gyratory Compaction & Wheel Tracking",
+          "href": "https://qclab.com.bd/gyratory-compaction--wheel-tracking",
+          "items": [
+            {
+              "title": "Gyratory Compactors",
+              "href": "https://qclab.com.bd/gyratory-compactors"
+            },
+            {
+              "title": "Wheel Tracking Machines",
+              "href": "https://qclab.com.bd/wheel-tracking-machines"
+            }
+          ]
+        },
+        {
+          "group": "Marshall Stability, BMD and Indirect Tensile",
+          "href": "https://qclab.com.bd/marshall-stability-bmd-and-indirect-tensile",
+          "items": [
+            {
+              "title": "Balanced Mix Design",
+              "href": "https://qclab.com.bd/balanced-mix-design"
+            },
+            {
+              "title": "Marshall Water Baths",
+              "href": "https://qclab.com.bd/marshall-water-baths"
+            },
+            {
+              "title": "Marshall and other Compactors",
+              "href": "https://qclab.com.bd/marshall-and-other-compactors"
+            },
+            {
+              "title": "Marshall, Indirect Tensile and BMD Testers",
+              "href": "https://qclab.com.bd/marshall-indirect-tensile-and-bmd-testers"
+            },
+            {
+              "title": "Other Asphalt Mix Tests",
+              "href": "https://qclab.com.bd/other-asphalt-mix-tests"
+            }
+          ]
+        },
+        {
+          "group": "Road Quality Testing",
+          "href": "https://qclab.com.bd/road-quality-testing",
+          "items": [
+            {
+              "title": "Indentation",
+              "href": "https://qclab.com.bd/indentation"
+            },
+            {
+              "title": "Permeameters",
+              "href": "https://qclab.com.bd/permeameters"
+            },
+            {
+              "title": "Polishing Tests",
+              "href": "https://qclab.com.bd/polishing-tests"
+            },
+            {
+              "title": "Slurry Seal Testing",
+              "href": "https://qclab.com.bd/slurry-seal-testing"
+            },
+            {
+              "title": "Surface Properties",
+              "href": "https://qclab.com.bd/surface-properties"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "groups": [
+        {
+          "group": "Cement Testing",
+          "href": "https://qclab.com.bd/cement-testing",
+          "items": [
+            {
+              "title": "Sampling",
+              "href": "https://qclab.com.bd/sampling"
+            },
+            {
+              "title": "Soundness",
+              "href": "https://qclab.com.bd/soundness"
+            },
+            {
+              "title": "Fineness",
+              "href": "https://qclab.com.bd/blaine-air-permeability-apparatus-bangladesh"
+            },
+            {
+              "title": "Air Content",
+              "href": "https://qclab.com.bd/air-content"
+            },
+            {
+              "title": "Measurement of length changes",
+              "href": "https://qclab.com.bd/measurement-of-length-changes"
+            },
+            {
+              "title": "Potential Alkali Reactivity, Expansion Test",
+              "href": "https://qclab.com.bd/potential-alkali-reactivity-expansion-test"
+            },
+            {
+              "title": "Heat of Hydration",
+              "href": "https://qclab.com.bd/heat-of-hydration"
+            },
+            {
+              "title": "Water Retention",
+              "href": "https://qclab.com.bd/water-retention"
+            },
+            {
+              "title": "Bulk Density",
+              "href": "https://qclab.com.bd/bulk-density"
+            },
+            {
+              "title": "Carbon Dioxide Content",
+              "href": "https://qclab.com.bd/carbon-dioxide-content"
+            },
+            {
+              "title": "Building Lime Testing",
+              "href": "https://qclab.com.bd/building-lime-testing"
+            },
+            {
+              "title": "Grout Testing",
+              "href": "https://qclab.com.bd/grout-testing"
+            },
+            {
+              "title": "Mud Testing",
+              "href": "https://qclab.com.bd/mud-testing"
+            },
+            {
+              "title": "Standard sand",
+              "href": "https://qclab.com.bd/standard-sand-"
+            }
+          ]
+        },
+        {
+          "group": "Concrete Testing",
+          "href": "https://qclab.com.bd/concrete-testing",
+          "items": [
+            {
+              "title": "Preparation of Specimens",
+              "href": "https://qclab.com.bd/preparation-of-specimens"
+            },
+            {
+              "title": "Air Entrainment-Mortar",
+              "href": "https://qclab.com.bd/air-entrainment-mortar"
+            },
+            {
+              "title": "Workability and Consistency of Fresh Concrete",
+              "href": "https://qclab.com.bd/workability-and-consistency-of-fresh-concrete"
+            },
+            {
+              "title": "Density of Fresh Concrete",
+              "href": "https://qclab.com.bd/density-of-fresh-concrete"
+            },
+            {
+              "title": "SCC Testing Apparatus",
+              "href": "https://qclab.com.bd/scc-testing-apparatus"
+            },
+            {
+              "title": "Gyratory Compactors for Cement and Concrete",
+              "href": "https://qclab.com.bd/gyratory-compactors-for-cement-and-concrete"
+            },
+            {
+              "title": "Heat of Hydration Fresh Concrete",
+              "href": "https://qclab.com.bd/heat-of-hydration-fresh-concrete"
+            }
+          ]
+        },
+        {
+          "group": "Determination of Strength",
+          "href": "https://qclab.com.bd/determination-of-strength",
+          "items": [
+            {
+              "title": "Compression Strength Test",
+              "href": "https://qclab.com.bd/compression-strength-test"
+            },
+            {
+              "title": "Bond Strength Test",
+              "href": "https://qclab.com.bd/bond-strength-test"
+            },
+            {
+              "title": "Flexural Beam Testing",
+              "href": "https://qclab.com.bd/flexural-beam-testing-"
+            }
+          ]
+        },
+        {
+          "group": "Hardened Concrete Testing",
+          "href": "https://qclab.com.bd/hardened-concrete-testing",
+          "items": [
+            {
+              "title": "Concrete Compaction",
+              "href": "https://qclab.com.bd/concrete-compaction"
+            },
+            {
+              "title": "Concrete Specimen Molds",
+              "href": "https://qclab.com.bd/concrete-specimen-molds"
+            },
+            {
+              "title": "Curing Tanks",
+              "href": "https://qclab.com.bd/curing-tanks"
+            },
+            {
+              "title": "Cylinder Capping",
+              "href": "https://qclab.com.bd/cylinder-capping"
+            },
+            {
+              "title": "Coring, cutting and grinding machines",
+              "href": "https://qclab.com.bd/coring-cutting-and-grinding-machines"
+            },
+            {
+              "title": "Density of Hardened Concrete",
+              "href": "https://qclab.com.bd/density-of-hardened-concrete"
+            },
+            {
+              "title": "Water Penetration",
+              "href": "https://qclab.com.bd/water-penetration"
+            },
+            {
+              "title": "Creep Testing",
+              "href": "https://qclab.com.bd/creep-testing"
+            }
+          ]
+        },
+        {
+          "group": "Shotcrete Strength and Special Testing",
+          "href": "https://qclab.com.bd/shotcrete-strength-and-special-testing",
+          "items": [
+            {
+              "title": "Control Consoles for Advanced Testing",
+              "href": "https://qclab.com.bd/control-consoles-for-advanced-testing"
+            },
+            {
+              "title": "MoE Accessories and Compressometers",
+              "href": "https://qclab.com.bd/moe-accessories-and-compressometers"
+            },
+            {
+              "title": "Testing Fiber Reinforced Concrete and Shotcrete",
+              "href": "https://qclab.com.bd/-testing-fiber-reinforced-concrete-and-shotcrete"
+            },
+            {
+              "title": "Concrete Pipe Testing Machines",
+              "href": "https://qclab.com.bd/concrete-pipe-testing-machines"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "NDT Testing",
+      "groups": [
+        {
+          "group": "Mechanical NDT Testing",
+          "href": "https://qclab.com.bd/mechanical-ndt-testing-",
+          "items": [
+            {
+              "title": "Steel Structure NDT",
+              "href": "https://qclab.com.bd/steel-structure-ndt"
+            },
+            {
+              "title": "Mechanical maintenance NDT",
+              "href": "https://qclab.com.bd/mechanical-maintenance-ndt"
+            }
+          ]
+        },
+        {
+          "group": "Civil NDT Testing",
+          "href": "https://qclab.com.bd/civil-ndt-testing-",
+          "items": [
+            {
+              "title": "Structural NDT Testing",
+              "href": "https://qclab.com.bd/structural-ndt-testing"
+            },
+            {
+              "title": "Concrete NDT Testing",
+              "href": "https://qclab.com.bd/concrete-ndt-testing"
+            },
+            {
+              "title": "Foundation & Pile Testing",
+              "href": "https://qclab.com.bd/foundation--pile-testing"
+            },
+            {
+              "title": "Pavement & Road NDT",
+              "href": "https://qclab.com.bd/pavement--road-ndt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "General Lab",
+      "groups": [
+        {
+          "group": "Basic Laboratory Instruments",
+          "href": "#",
+          "items": []
+        },
+        {
+          "group": "Heating & Drying Equipment",
+          "href": "https://qclab.com.bd/heating--drying-equipment",
+          "items": []
+        },
+        {
+          "group": "Refrigeration & Storage Equipment",
+          "href": "https://qclab.com.bd/refrigeration--storage-equipment",
+          "items": []
+        },
+        {
+          "group": "Sterilization Equipment",
+          "href": "https://qclab.com.bd/sterilization-equipment",
+          "items": []
+        },
+        {
+          "group": "Laboratory Incubation Equipment",
+          "href": "https://qclab.com.bd/laboratory-incubation-equipment",
+          "items": []
+        },
+        {
+          "group": "Sample Preparation Equipment",
+          "href": "https://qclab.com.bd/sample-preparation-equipment",
+          "items": []
+        },
+        {
+          "group": "Spectroscopy Instruments",
+          "href": "https://qclab.com.bd/spectroscopy-instruments",
+          "items": []
+        },
+        {
+          "group": "Chromatography Instruments",
+          "href": "https://qclab.com.bd/chromatography-instruments",
+          "items": []
+        },
+        {
+          "group": "Core Drilling",
+          "href": "https://qclab.com.bd/core-drilling",
+          "items": []
+        },
+        {
+          "group": "Thermal Analysis Instruments",
+          "href": "https://qclab.com.bd/thermal-analysis-instruments",
+          "items": []
+        },
+        {
+          "group": "Sample Drying",
+          "href": "https://qclab.com.bd/sample-drying",
+          "items": []
+        },
+        {
+          "group": "Molecular Biology Equipment",
+          "href": "https://qclab.com.bd/molecular-biology-equipment",
+          "items": []
+        },
+        {
+          "group": "General Laboratory Apparatus",
+          "href": "https://qclab.com.bd/general-laboratory-apparatus",
+          "items": []
+        },
+        {
+          "group": "Laboratory Measurement Instruments",
+          "href": "https://qclab.com.bd/laboratory-measurement-instruments",
+          "items": []
+        },
+        {
+          "group": "Measuring Instruments",
+          "href": "https://qclab.com.bd/measuring-instruments",
+          "items": []
+        },
+        {
+          "group": "Laboratory Safety Equipment",
+          "href": "https://qclab.com.bd/laboratory-safety-equipment",
+          "items": []
+        },
+        {
+          "group": "Weighing Samples",
+          "href": "https://qclab.com.bd/weighing-samples",
+          "items": []
+        },
+        {
+          "group": "Laboratory Consumables",
+          "href": "https://qclab.com.bd/laboratory-consumables",
+          "items": []
+        }
+      ]
+    },
+    {
+      "category": "Geoscience",
+      "groups": [
+        {
+          "group": "Geology",
+          "href": "https://qclab.com.bd/geology",
+          "items": []
+        },
+        {
+          "group": "Geophysics",
+          "href": "https://qclab.com.bd/geophysics",
+          "items": [
+            {
+              "title": "Geo Electrical Resistivity Meter",
+              "href": "https://qclab.com.bd/geo-electrical-resistivity-meter"
+            },
+            {
+              "title": "Earth Resistivity Tomography",
+              "href": "https://qclab.com.bd/earth-resistivity-tomography"
+            },
+            {
+              "title": "Ground Water Detector",
+              "href": "https://qclab.com.bd/ground-water-detector"
+            },
+            {
+              "title": "Seismographs",
+              "href": "https://qclab.com.bd/seismographs"
+            },
+            {
+              "title": "Geophone Seismic Sensor Devices",
+              "href": "https://qclab.com.bd/geophone-seismic-sensor-devices"
+            },
+            {
+              "title": "Transient Electromagnetics",
+              "href": "https://qclab.com.bd/transient-electromagnetics"
+            },
+            {
+              "title": "Borehole Logging Tools",
+              "href": "https://qclab.com.bd/borehole-logging-tools"
+            },
+            {
+              "title": "Proton Precision Magnetometer",
+              "href": "https://qclab.com.bd/proton-precision-magnetometer"
+            }
+          ]
+        },
+        {
+          "group": "Geochemistry",
+          "href": "https://qclab.com.bd/geochemistry",
+          "items": []
+        },
+        {
+          "group": "Hydrology",
+          "href": "https://qclab.com.bd/hydrology",
+          "items": []
+        },
+        {
+          "group": "geodynamics",
+          "href": "https://qclab.com.bd/geodynamics",
+          "items": []
+        },
+        {
+          "group": "Earthquake Testing",
+          "href": "https://qclab.com.bd/earthquake-testing-",
+          "items": []
+        }
+      ]
+    },
+    {
+      "category": "Petrochemical Testing",
+      "groups": [
+        {
+          "group": "Petroleum Products Testing Laboratory",
+          "href": "https://qclab.com.bd/petroleum-products-testing-laboratory",
+          "items": [
+            {
+              "title": "Particle Counter",
+              "href": "https://qclab.com.bd/particle-counter"
+            },
+            {
+              "title": "Flash Point Tester",
+              "href": "https://qclab.com.bd/flash-point-tester"
+            },
+            {
+              "title": "Calibration & Verification",
+              "href": "https://qclab.com.bd/calibration-verification"
+            },
+            {
+              "title": "Centrifuge Equipment Equipment",
+              "href": "https://qclab.com.bd/centrifuge-equipment"
+            },
+            {
+              "title": "Cetane Number",
+              "href": "https://qclab.com.bd/cetane-number"
+            },
+            {
+              "title": "Cold Flow & Freezing Point",
+              "href": "https://qclab.com.bd/cold-flow-freezing-point"
+            },
+            {
+              "title": "Colour Equipment",
+              "href": "https://qclab.com.bd/colour-equipment"
+            },
+            {
+              "title": "Corrosion and Rust",
+              "href": "https://qclab.com.bd/corrosion-and-rust"
+            },
+            {
+              "title": "Distillation Equipment",
+              "href": "https://qclab.com.bd/distillation-equipment"
+            },
+            {
+              "title": "Ethanol",
+              "href": "https://qclab.com.bd/ethanol"
+            },
+            {
+              "title": "Foaming, Air Release and Emulsification",
+              "href": "https://qclab.com.bd/foaming-air-release-and-emulsification"
+            },
+            {
+              "title": "General Laboratory Equipment",
+              "href": "https://qclab.com.bd/general-laboratory-equipment"
+            },
+            {
+              "title": "Hardening and Softening Equipment",
+              "href": "https://qclab.com.bd/hardening-and-softening-equipment"
+            },
+            {
+              "title": "LPG",
+              "href": "https://qclab.com.bd/lpg"
+            },
+            {
+              "title": "Penetration Equipment",
+              "href": "https://qclab.com.bd/penetration-equipment"
+            },
+            {
+              "title": "Proficiency Test Scheme",
+              "href": "https://qclab.com.bd/proficiency-test-scheme"
+            },
+            {
+              "title": "Separation and Evaporation",
+              "href": "https://qclab.com.bd/separation-and-evaporation"
+            },
+            {
+              "title": "Tribology and Bearing Lubrication",
+              "href": "https://qclab.com.bd/tribology-and-bearing-lubrication"
+            }
+          ]
+        },
+        {
+          "group": "Transformer Oil Testing Laboratory",
+          "href": "https://qclab.com.bd/transformer-oil-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Coal & Coke Testing Laboratory",
+          "href": "https://qclab.com.bd/coal--coke-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "LPG & Natural Gas Testing Laboratory",
+          "href": "https://qclab.com.bd/lpg--natural-gas-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Petrochemical Raw Materials Testing Laboratory",
+          "href": "https://qclab.com.bd/petrochemical-raw-materials-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Polymer Testing Laboratory",
+          "href": "https://qclab.com.bd/polymer-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Plastic Raw Material Testing Laboratory",
+          "href": "https://qclab.com.bd/plastic-raw-material-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Rubber Testing Laboratory",
+          "href": "https://qclab.com.bd/rubber-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Fuel Quality Testing Laboratory",
+          "href": "https://qclab.com.bd/fuel-quality-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Biofuel Testing Laboratory",
+          "href": "https://qclab.com.bd/biofuel-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Environmental Petrochemical Testing Laboratory",
+          "href": "https://qclab.com.bd/environmental-petrochemical-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Corrosion Testing Laboratory",
+          "href": "https://qclab.com.bd/corrosion-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Rock Testing Equipment",
+          "href": "https://qclab.com.bd/rock-testing-equipment",
+          "items": []
+        },
+        {
+          "group": "Uniaxial and Triaxial Testing on Rocks",
+          "href": "https://qclab.com.bd/uniaxial-and-triaxial-testing-on-rocks",
+          "items": []
+        },
+        {
+          "group": "Crude Oil Testing Laboratory",
+          "href": "https://qclab.com.bd/crude-oil-testing-laboratory",
+          "items": []
+        }
+      ]
+    },
+    {
+      "category": "Soil",
+      "groups": [
+        {
+          "group": "Soil-Field",
+          "href": "https://qclab.com.bd/soil-field",
+          "items": [
+            {
+              "title": "Augers & Auger Sets",
+              "href": "https://qclab.com.bd/augers-auger-sets"
+            },
+            {
+              "title": "CBR Field Test",
+              "href": "https://qclab.com.bd/cbr-field-test"
+            },
+            {
+              "title": "Compaction-Density",
+              "href": "https://qclab.com.bd/compaction-density"
+            },
+            {
+              "title": "Compaction-Stiffness",
+              "href": "https://qclab.com.bd/compaction-stiffness"
+            },
+            {
+              "title": "Earth Drill",
+              "href": "https://qclab.com.bd/earth-drill"
+            },
+            {
+              "title": "Powered",
+              "href": "https://qclab.com.bd/powered"
+            },
+            {
+              "title": "Field Charts",
+              "href": "https://qclab.com.bd/field-charts"
+            },
+            {
+              "title": "Hydraulic Conductivity and Infiltration",
+              "href": "https://qclab.com.bd/hydraulic-conductivity-andinfiltration"
+            },
+            {
+              "title": "Penetrometers",
+              "href": "https://qclab.com.bd/penetrometers"
+            },
+            {
+              "title": "Plate Load Test",
+              "href": "https://qclab.com.bd/plate-load-test"
+            },
+            {
+              "title": "Probe Rods",
+              "href": "https://qclab.com.bd/probe-rods"
+            },
+            {
+              "title": "Resistivity",
+              "href": "https://qclab.com.bd/resistivity"
+            },
+            {
+              "title": "Shear Vane",
+              "href": "https://qclab.com.bd/shear-vane"
+            },
+            {
+              "title": "Torvane",
+              "href": "https://qclab.com.bd/torvane"
+            },
+            {
+              "title": "Soil Moisture Tester",
+              "href": "https://qclab.com.bd/soil-moisture-tester"
+            },
+            {
+              "title": "Soil Sampling",
+              "href": "https://qclab.com.bd/soil-sampling"
+            },
+            {
+              "title": "Water Evaluations",
+              "href": "https://qclab.com.bd/water-evaluations"
+            }
+          ]
+        },
+        {
+          "group": "Soil-Lab",
+          "href": "https://qclab.com.bd/soil-lab",
+          "items": [
+            {
+              "title": "Atterberg Limits",
+              "href": "https://qclab.com.bd/atterberg-limits"
+            },
+            {
+              "title": "Calcium Carbonate Content",
+              "href": "https://qclab.com.bd/calcium-carbonate-content"
+            },
+            {
+              "title": "CBR Load Frames",
+              "href": "https://qclab.com.bd/cbr-load-frames"
+            },
+            {
+              "title": "Color",
+              "href": "https://qclab.com.bd/color"
+            },
+            {
+              "title": "Consolidometers",
+              "href": "https://qclab.com.bd/consolidometers"
+            },
+            {
+              "title": "Expansion Index Testing",
+              "href": "https://qclab.com.bd/expansion-indextesting"
+            },
+            {
+              "title": "Hydrometer Analysis of Soil",
+              "href": "https://qclab.com.bd/hydrometer-analysis-ofsoil"
+            },
+            {
+              "title": "Moisture Content of Soil",
+              "href": "https://qclab.com.bd/moisture-content-ofsoil"
+            },
+            {
+              "title": "Permeability of Soil",
+              "href": "https://qclab.com.bd/permeability-of-soil"
+            },
+            {
+              "title": "pH",
+              "href": "https://qclab.com.bd/ph"
+            },
+            {
+              "title": "Pin Hole Dispersion",
+              "href": "https://qclab.com.bd/pin-hole-dispersion"
+            },
+            {
+              "title": "Relative Density of Soil",
+              "href": "https://qclab.com.bd/relative-density-ofsoil"
+            },
+            {
+              "title": "Soil Compaction Tests",
+              "href": "https://qclab.com.bd/soil-compaction-tests"
+            },
+            {
+              "title": "Soil Sample Ejectors",
+              "href": "https://qclab.com.bd/soil-sample-ejectors"
+            },
+            {
+              "title": "Sand Equivalent Test",
+              "href": "https://qclab.com.bd/sand-equivalent-test"
+            },
+            {
+              "title": "Sample Preparation",
+              "href": "https://qclab.com.bd/sample-preparation"
+            },
+            {
+              "title": "Unconfined Soil Tester",
+              "href": "https://qclab.com.bd/unconfined-soil-tester"
+            },
+            {
+              "title": "Volume Change of Soil",
+              "href": "https://qclab.com.bd/volume-change-ofsoil"
+            }
+          ]
+        },
+        {
+          "group": "Soil Mechanics",
+          "href": "https://qclab.com.bd/soil-mechanics",
+          "items": [
+            {
+              "title": "Consolidation Testing Machines",
+              "href": "https://qclab.com.bd/consolidation-testing-machines"
+            },
+            {
+              "title": "Direct Shear Testing Machines",
+              "href": "https://qclab.com.bd/direct-shear-testing-machines"
+            },
+            {
+              "title": "Triaxial Testing Equipment",
+              "href": "https://qclab.com.bd/-triaxial-testing-equipment"
+            },
+            {
+              "title": "Data Loggers",
+              "href": "https://qclab.com.bd/data-loggers"
+            },
+            {
+              "title": "S-Type Load Cells in Bangladesh",
+              "href": "https://qclab.com.bd/s-type-load-cells-in-bangladesh"
+            },
+            {
+              "title": "Linear Variable Displacement Transducers (LVDT)",
+              "href": "https://qclab.com.bd/linear-variable-displacement-transducers-lvdt"
+            },
+            {
+              "title": "Proving Rings for Calibration",
+              "href": "https://qclab.com.bd/proving-rings-for-calibration"
+            },
+            {
+              "title": "Dial Indicators",
+              "href": "https://qclab.com.bd/dial-indicators"
+            },
+            {
+              "title": "Erosion Function Apparatus",
+              "href": "https://qclab.com.bd/erosion-function-apparatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Material Testing",
+      "groups": [
+        {
+          "group": "Metal Testing Laboratory",
+          "href": "https://qclab.com.bd/metal-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Polymer & Plastic Testing Laboratory",
+          "href": "https://qclab.com.bd/polymer--plastic-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Composite Materials Testing Laboratory",
+          "href": "https://qclab.com.bd/composite-materials-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Ceramic & Glass Testing Laboratory",
+          "href": "https://qclab.com.bd/ceramic--glass-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Textile & Fabric Testing Laboratory",
+          "href": "https://qclab.com.bd/textile--fabric-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Paper & Packaging Testing Laboratory",
+          "href": "https://qclab.com.bd/paper--packaging-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Wood & Timber Testing Laboratory",
+          "href": "https://qclab.com.bd/wood--timber-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Paint, Coating & Surface Testing Laboratory",
+          "href": "https://qclab.com.bd/paint-coating--surface-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Adhesive & Sealant Testing Laboratory",
+          "href": "https://qclab.com.bd/adhesive--sealant-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Foam & Insulation Testing Laboratory",
+          "href": "https://qclab.com.bd/foam--insulation-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Electrical Insulation Materials Testing Laboratory",
+          "href": "https://qclab.com.bd/electrical-insulation-materials-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Advanced Nanomaterials Testing Laboratory",
+          "href": "https://qclab.com.bd/advanced-nanomaterials-testing-laboratory",
+          "items": []
+        },
+        {
+          "group": "Failure Analysis & Fractography Laboratory",
+          "href": "https://qclab.com.bd/failure-analysis--fractography-laboratory",
+          "items": []
+        },
+        {
+          "group": "Electromechanical Universal Tester",
+          "href": "https://qclab.com.bd/electromechanical-universal-tester",
+          "items": []
+        },
+        {
+          "group": "Steel and Rebars Testing",
+          "href": "https://qclab.com.bd/steel-and-rebars-testing",
+          "items": []
+        }
+      ]
+    },
+    {
+      "category": "Monitoring",
+      "groups": [
+        {
+          "group": "Data Acquisition and Monitoring Laboratory",
+          "href": "https://qclab.com.bd/data-acquisition-and-monitoring-laboratory",
+          "items": [
+            {
+              "title": "Multi-channel DAQ systems",
+              "href": "https://qclab.com.bd/multi-channel-daq-systems-"
+            },
+            {
+              "title": "Data Loggers",
+              "href": "https://qclab.com.bd/data-loggers"
+            }
+          ]
+        },
+        {
+          "group": "Sensor and Instrumentation Laboratory",
+          "href": "https://qclab.com.bd/sensor-and-instrumentation-laboratory",
+          "items": []
+        },
+        {
+          "group": "Structural Dynamics and Vibration Laboratory",
+          "href": "https://qclab.com.bd/structural-dynamics-and-vibration-laboratory",
+          "items": []
+        }
+      ]
+    },
+    {
+      "category": "Environmental",
+      "groups": [
+        {
+          "group": "Water Quality Testing Laboratory",
+          "href": "https://qclab.com.bd/water-quality-testing-laboratory",
+          "items": [
+            {
+              "title": "pH Meter",
+              "href": "https://qclab.com.bd/ph-meter"
+            },
+            {
+              "title": "Conductivity Testing",
+              "href": "https://qclab.com.bd/conductivity-testing"
+            },
+            {
+              "title": "Turbidity Testing",
+              "href": "https://qclab.com.bd/turbidity-testing"
+            },
+            {
+              "title": "Dissolved Oxygen (DO)",
+              "href": "https://qclab.com.bd/dissolved-oxygen-do"
+            },
+            {
+              "title": "Biological Oxygen Demand (BOD)",
+              "href": "https://qclab.com.bd/biological-oxygen-demand-bod"
+            },
+            {
+              "title": "Chemical Oxygen Demand (COD)",
+              "href": "https://qclab.com.bd/chemical-oxygen-demand-cod"
+            },
+            {
+              "title": "Total Suspended Solids (TSS) Testing",
+              "href": "https://qclab.com.bd/total-suspended-solids-tss-testing"
+            },
+            {
+              "title": "Total Dissolved Solids (TDS)",
+              "href": "https://qclab.com.bd/total-dissolved-solids-tds"
+            },
+            {
+              "title": "Heavy Metal Analysis",
+              "href": "https://qclab.com.bd/heavy-metal-analysis"
+            },
+            {
+              "title": "Nutrient Analysis",
+              "href": "https://qclab.com.bd/nutrient-analysis"
+            }
+          ]
+        },
+        {
+          "group": "Wastewater Testing Laboratory",
+          "href": "https://qclab.com.bd/wastewater-testing-laboratory",
+          "items": [
+            {
+              "title": "Industrial Effluent Analysis",
+              "href": "https://qclab.com.bd/industrial-effluent-analysis"
+            }
+          ]
+        },
+        {
+          "group": "Air Quality Monitoring Laboratory",
+          "href": "https://qclab.com.bd/air-quality-monitoring-laboratory",
+          "items": [
+            {
+              "title": "Stack Emission Testing",
+              "href": "https://qclab.com.bd/stack-emission-testing"
+            }
+          ]
+        },
+        {
+          "group": "Microbiology Laboratory",
+          "href": "https://qclab.com.bd/microbiology-laboratory",
+          "items": [
+            {
+              "title": "General Microbiology Lab",
+              "href": "https://qclab.com.bd/general-microbiology-lab"
+            },
+            {
+              "title": "Bacteriology Lab",
+              "href": "https://qclab.com.bd/bacteriology-lab"
+            },
+            {
+              "title": "Mycology Lab",
+              "href": "https://qclab.com.bd/mycology-lab"
+            },
+            {
+              "title": "Virology Lab",
+              "href": "https://qclab.com.bd/virology-lab"
+            },
+            {
+              "title": "Parasitology Lab",
+              "href": "https://qclab.com.bd/parasitology-lab"
+            },
+            {
+              "title": "Immunology Lab",
+              "href": "https://qclab.com.bd/immunology-lab"
+            },
+            {
+              "title": "Molecular Microbiology Lab",
+              "href": "https://qclab.com.bd/molecular-microbiology-lab"
+            },
+            {
+              "title": "Microbial Genetics Lab",
+              "href": "https://qclab.com.bd/microbial-genetics-lab"
+            },
+            {
+              "title": "Industrial Microbiology Lab",
+              "href": "https://qclab.com.bd/industrial-microbiology-lab"
+            },
+            {
+              "title": "Agricultural Microbiology Lab",
+              "href": "https://qclab.com.bd/agricultural-microbiology-lab"
+            },
+            {
+              "title": "Clinical Microbiology Lab",
+              "href": "https://qclab.com.bd/clinical-microbiology-lab"
+            }
+          ]
+        },
+        {
+          "group": "Environmental Chemistry Laboratory",
+          "href": "https://qclab.com.bd/environmental-chemistry-laboratory",
+          "items": [
+            {
+              "title": "Trace Metal Analysis",
+              "href": "https://qclab.com.bd/trace-metal-analysis"
+            }
+          ]
+        },
+        {
+          "group": "Noise & Vibration Monitoring Laboratory",
+          "href": "https://qclab.com.bd/noise--vibration-monitoring-laboratory",
+          "items": []
+        },
+        {
+          "group": "Environmental Monitoring & Field Testing Unit Groundwater Monitoring",
+          "href": "https://qclab.com.bd/environmental-monitoring--field-testing-unit-groundwater-monitoring",
+          "items": []
+        }
+      ]
+    }
+  ],
+  "banner_items": [
+    {
+      "text": "Civil Engineering Solutions\n\n\n\n                                      Reliable Structures, Resilient Solutions!\n                                  \n\n\n\n\n                                          Explore ",
+      "img": "https://www.qclab.com.bd/public/storage/slider/civil-engineering-slider-691cabbd64ef1-6a9f8f5167abb.jpg"
+    },
+    {
+      "text": "Civil Engineering Solutions\n\n\n\n                                      Reliable Structures, Resilient Solutions!\n                                  \n\n\n\n\n                                          Explore ",
+      "img": "https://www.qclab.com.bd/public/storage/slider/civil-engineering-slider-691cabbd64ef1-6a9f8f5167abb.jpg"
+    },
+    {
+      "text": "Civil Engineering Solutions\n\n\n\n                                      Reliable Structures, Resilient Solutions!\n                                  \n\n\n\n\n                                          Explore ",
+      "img": "https://www.qclab.com.bd/public/storage/slider/civil-engineering-slider-691cabbd64ef1-6a9f8f5167abb.jpg"
+    },
+    {
+      "text": "Integrated Testing & Calibration Solution\n\n\n\n\n\n\n\n\n\n\n\nSubsurface Utility Mapping solution\n\n\n\n\n\n\n\n\n\n\n\nElectrical Preventive Maintenance\n\n\n\n\n\n\n\n\n\n\n\nMechanical Preventive Maintenance\n\n\n\n\n\n\n\n\n\n\n\nThermal As",
+      "img": "https://qclab.com.bd/public/storage/images/industry/calibration-solution-68ee7cb1c15cf.jpg"
+    },
+    {
+      "text": "\"Reliable service, accurate results, and professional team. Highly recommended for civil engineering solutions.\"\nMarjia Sultana",
+      "img": "https://www.qclab.com.bd/public/storage/testimonial/author-69fb98de6ebdc.jpg"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/bsrm-6a15592f9f947.png"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/gsb-6a155b38477c5.png"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/cuet-6a155b50a8287.png"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/confidence-group-6a155b6c175a2.png"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/dhaka-mass-6a155b85d33a5.png"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/hbri-logo-6a155b9cb567d.png"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/mist-logo-0-6a155bb9dde0a.png"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/roadsand-highway-6a155bcebe80b.png"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/ruet-6a155be41cb68.png"
+    },
+    {
+      "text": "",
+      "img": "https://www.qclab.com.bd/public/storage/client/lged-6a155b21b041d.png"
+    }
+  ],
+  "service_blocks": [
+    {
+      "title": "Explore Now",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "Explore Now",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "Manufacturing",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/images/project/manufacture-qc-lab-solution-6a32772d2b76d.jpg"
+    },
+    {
+      "title": "Manufacturing",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/images/project/manufacture-qc-lab-solution-6a32772d2b76d.jpg"
+    },
+    {
+      "title": "Manufacturing",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "Condition Base Monitoring Service",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/images/project/condition-monitoring-service-500x500-6a325a9944bff.webp"
+    },
+    {
+      "title": "Condition Base Monitoring Service",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/images/project/condition-monitoring-service-500x500-6a325a9944bff.webp"
+    },
+    {
+      "title": "Condition Base Monitoring Service",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "Laboratory Development Consultancy",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/images/project/wwwqclabcombd-lab-consultency-6a28598ec7f16.jpg"
+    },
+    {
+      "title": "Laboratory Development Consultancy",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/images/project/wwwqclabcombd-lab-consultency-6a28598ec7f16.jpg"
+    },
+    {
+      "title": "Laboratory Development Consultancy",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "IoT-Based Lightning Protection Systems (LPS)-1",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/project/qc-lab-solution-lps-6a32b8c0c1e7c.jpg"
+    },
+    {
+      "title": "IoT-Based Lightning Protection Systems (LPS)-1",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/project/qc-lab-solution-lps-6a32b8c0c1e7c.jpg"
+    },
+    {
+      "title": "IoT-Based Lightning Protection Systems (LPS)-1",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "Bridge Health Monitoring",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/project/bhm-6a328311eef5e-6a9a8614aab6e.jpg"
+    },
+    {
+      "title": "Bridge Health Monitoring",
+      "desc": "",
+      "img": "https://www.qclab.com.bd/public/storage/project/bhm-6a328311eef5e-6a9a8614aab6e.jpg"
+    },
+    {
+      "title": "Bridge Health Monitoring",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "Reinforced Concrete (RCC): Strength Behind Modern Structures",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "Foundation Engineering: Building Stability from the Ground Up",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "Structural Steel Design for Modern Infrastructure",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "The Role of Thermodynamics in Mechanical Systems",
+      "desc": "",
+      "img": ""
+    },
+    {
+      "title": "Machine Design Principles for Reliable Engineering Solutions",
+      "desc": "",
+      "img": ""
+    }
+  ],
+  "all_images": [
+    {
+      "src": "https://www.qclab.com.bd/storage/logo/urfP0vVnKliQy2O0CFdRnZCPUgUe0bgaxtlOYYeQ.png",
+      "alt": "QC Lab Solution"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/slider/civil-engineering-slider-691cabbd64ef1-6a9f8f5167abb.jpg",
+      "alt": "Civil Engineering Solutions"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/slider/lab-equipment-consultancy-691caeb698566-6a9f8fc6719a8.jpg",
+      "alt": "Lab Equipment Consultancy"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/about_us/innovative-engineering-solutions-devised-to-fight-the-covid-19-pandemic-69fbb19d86c25.jpg",
+      "alt": "About Us"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/aggregates-mini-6908e2d66edb5.png",
+      "alt": "Aggregates"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/asphalt-mix-mini-6908e321c4b82.png",
+      "alt": "Bitumen & Asphalt"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/cement-mortar-mini-1-6908e39f71fd4.png",
+      "alt": "Building Materials"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/product-range-3-6908e400474bb.png",
+      "alt": "NDT Testing"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/rocks-mini-6908e472edb41.png",
+      "alt": "General Lab"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/geoscience-6a488d8de56e9.jpg",
+      "alt": "Geoscience"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/petrochemical-testing-6a487f9ad51f2.jpg",
+      "alt": "Petrochemical Testing"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/soil-mini-1-6908e56b8f6ef.png",
+      "alt": "Soil"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/steel-mini-1-6908e6281a81d.png",
+      "alt": "Material Testing"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/category/sm-6a133040a5dcc.jfif",
+      "alt": "Monitoring"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/ServiceCategory/civil-service-6a1ddeb0eadbb.jpg",
+      "alt": "Civil Engineering Testing Services"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/ServiceCategory/condition-monitoring-2-6a1ddfa8c07e9.jpg",
+      "alt": "Condition Monitoring Services"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/ServiceCategory/laboratory-consultancy-edit-6a1de08dc8c16.jpg",
+      "alt": "Consultancy"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/images/project/manufacture-qc-lab-solution-6a32772d2b76d.jpg",
+      "alt": "Manufacturing"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/images/project/condition-monitoring-service-500x500-6a325a9944bff.webp",
+      "alt": "Condition Base Monitoring Service"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/images/project/wwwqclabcombd-lab-consultency-6a28598ec7f16.jpg",
+      "alt": "Laboratory Development Consultancy"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/project/qc-lab-solution-lps-6a32b8c0c1e7c.jpg",
+      "alt": "IoT-Based Lightning Protection Systems (LPS)-1"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/project/bhm-6a328311eef5e-6a9a8614aab6e.jpg",
+      "alt": "Bridge Health Monitoring"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/calibration-solution-68ee7cb1c15cf.jpg",
+      "alt": "Integrated Testing & Calibration Solution"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/subsurface-utility-mapping-solution-68ee7d4e18de9.jpg",
+      "alt": "Subsurface Utility Mapping solution"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/electrical-preventive-maintenance-68ee7d9f2ede9.jpg",
+      "alt": "Electrical Preventive Maintenance"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/mechanical-preventive-maintenance-68ee7deec0683.jpg",
+      "alt": "Mechanical Preventive Maintenance"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/thermal-assessment-68ee7e26380bb.jpg",
+      "alt": "Thermal Assessment"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/pd-monitoring-system-68ee7e6e3b411.jpg",
+      "alt": "PD Monitoring System"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/switchgear-protection-testing-solutions-68ee7eb66ad01.jpg",
+      "alt": "Switchgear Protection Testing Solution"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/maintenance-commissioning-68ee7f01e89f9.jpg",
+      "alt": "Substation Maintenance & Commissioning"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/underground-cable-fault-testing-692061cfd561e.jpg",
+      "alt": "Underground Cable Fault Testing & Diagnostics"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/solar-performance-testing-solution-68ee7f9be06fa.jpg",
+      "alt": "Solar Performance Testing Solution"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/combustible-gas-analysis-solution-68ee7fe1ae897.jpg",
+      "alt": "Combustible Gas Analysis Solution"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/lineman-safety-solutions-68ee802dea109.jpg",
+      "alt": "Lineman Safety Solutions"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/forestry-managements-68ee80fd7411e.jpg",
+      "alt": "Forestry Management"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/automatic-weather-station-68ee8144ad700.jpg",
+      "alt": "Automatic Weather Station"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/remote-sensing-observation-system-68ee83b4ad525.jpg",
+      "alt": "Remote Sensing & Observation System"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/augmented-reality-68ee845b6eab4.jpg",
+      "alt": "Augmented Reality (AR)"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/virtual-reality-1-68ee84b702a03.jpg",
+      "alt": "Virtual Reality (VR)"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/automated-training-simulators-68ee85c326abd.jpg",
+      "alt": "Automated Training Simulators"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/surveillance-system-68ee869dd88d5.jpg",
+      "alt": "Surveillance System"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/composite-flaw-detection-68ee8794ce882.jpg",
+      "alt": "Composite Flaw Detection"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/brake-disc-wear-inspection-68ee89060222f.jpg",
+      "alt": "Brake Disc Wear Inspection"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/solid-tyre-inspection-68ee896503583.jpg",
+      "alt": "Solid Tyre Inspection"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/hardness-testing-68ee89da442ed.jpg",
+      "alt": "Hardness Testing"
+    },
+    {
+      "src": "https://qclab.com.bd/public/storage/images/industry/road-marking-retroreflection-assessment-68ee8a426751b.jpg",
+      "alt": "Road-Marking & Retroreflection Assessment"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/testimonial/author-69fb98de6ebdc.jpg",
+      "alt": "Marjia Sultana"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/images/blogs/news-7-69fb96ae5e423.jpg",
+      "alt": "Reinforced Concrete (RCC): Strength Behind Modern Structures"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/images/blogs/news-6-69fb9644d692e.jpg",
+      "alt": "Foundation Engineering: Building Stability from the Ground Up"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/bsrm-6a15592f9f947.png",
+      "alt": "BSRM"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/gsb-6a155b38477c5.png",
+      "alt": "GSB"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/cuet-6a155b50a8287.png",
+      "alt": "CUET"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/confidence-group-6a155b6c175a2.png",
+      "alt": "Confidence-Group"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/dhaka-mass-6a155b85d33a5.png",
+      "alt": "Dhaka Mass"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/hbri-logo-6a155b9cb567d.png",
+      "alt": "HBRI LOGO"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/mist-logo-0-6a155bb9dde0a.png",
+      "alt": "MIST"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/roadsand-highway-6a155bcebe80b.png",
+      "alt": "Roadsand Highway"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/ruet-6a155be41cb68.png",
+      "alt": "RUET"
+    },
+    {
+      "src": "https://www.qclab.com.bd/public/storage/client/lged-6a155b21b041d.png",
+      "alt": "LGED"
+    }
+  ]
+};
