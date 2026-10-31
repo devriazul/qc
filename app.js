@@ -67,24 +67,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Category Icons & Images Map
 const CAT_ICONS = {
-  'Aggregates': '🏗️', 'Bitumen & Asphalt': '🛣️', 'Building Materials': '🏢',
+  'Aggregates': '🏗️', 'Bitumen & Asphalt': '🛣️', 'Asphalt Binder': '🛢️', 'Building Materials': '🏢',
   'NDT Testing': '🔍', 'General Lab': '🔬', 'Geoscience': '🌍',
-  'Petrochemical Testing': '⛽', 'Soil': '🧪', 'Material Testing': '⚙️',
-  'Monitoring': '📊', 'Environmental': '🍃'
+  'Petrochemical Testing': '⛽', 'Soil': '🧪', 'Soil Mechanics': '🧱', 'Material Testing': '⚙️',
+  'Monitoring': '📊', 'Environmental': '🍃', 'Geotextile Testing': '🧶'
 };
 
 const CAT_IMAGES = {
   'Aggregates': 'assets/soil_asphalt_lab.jpg',
   'Bitumen & Asphalt': 'assets/soil_asphalt_lab.jpg',
+  'Asphalt Binder': 'assets/soil_asphalt_lab.jpg',
   'Building Materials': 'assets/civil_testing.jpg',
   'NDT Testing': 'assets/ndt_calibration.jpg',
-  'Soil': 'assets/images/img_4.jpg',
-  'General Lab': 'assets/images/img_0.jpg',
-  'Petrochemical Testing': 'assets/images/img_1.jpg',
-  'Environmental': 'assets/images/img_2.jpg',
-  'Geoscience': 'assets/images/img_3.jpg',
-  'Material Testing': 'assets/images/img_5.jpg',
-  'Monitoring': 'assets/mega_bridge_project.jpg'
+  'General Lab': 'assets/civil_testing.jpg',
+  'Geoscience': 'assets/mega_bridge_project.jpg',
+  'Petrochemical Testing': 'assets/soil_asphalt_lab.jpg',
+  'Soil': 'assets/soil_asphalt_lab.jpg',
+  'Soil Mechanics': 'assets/soil_asphalt_lab.jpg',
+  'Material Testing': 'assets/civil_testing.jpg',
+  'Monitoring': 'assets/hero_banner.jpg',
+  'Environmental': 'assets/civil_testing.jpg',
+  'Geotextile Testing': 'assets/mega_bridge_project.jpg'
 };
 
 function getCategoryImg(catName, index = 0) {
@@ -122,7 +125,8 @@ function renderCatalogDashboardPills(categories) {
     btn.className = 'catalog-pill-btn';
     btn.id = `pill-cat-${idx}`;
     const icon = CAT_ICONS[cat.category] || '🧪';
-    btn.innerHTML = `${icon} ${cat.category} <span class="catalog-pill-count">${cat.groups.length} Subs</span>`;
+    const subCount = cat.groups ? cat.groups.length : 0;
+    btn.innerHTML = `${icon} ${cat.category} <span class="catalog-pill-count">${subCount} Subs</span>`;
     btn.onclick = () => {
       document.querySelectorAll('.catalog-pill-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
@@ -180,36 +184,40 @@ function renderCurrentCatalogView(categories, searchQuery) {
 
     categories.forEach((cat, idx) => {
       let totalProducts = 0;
-      cat.groups.forEach(g => totalProducts += (g.items ? g.items.length : 0));
+      (cat.groups || []).forEach(g => totalProducts += (g.items ? g.items.length : 0));
 
       const card = document.createElement('div');
       card.className = 'main-cat-card';
 
       let subCatPreviewHtml = '';
-      cat.groups.slice(0, 4).forEach(g => {
+      (cat.groups || []).slice(0, 4).forEach(g => {
         const childCnt = g.items ? g.items.length : 0;
-        subCatPreviewHtml += `<li><strong>${g.group}</strong> <span style="font-size: 0.78rem; background: #e0f2fe; color: #0056b3; padding: 1px 8px; border-radius: 10px; margin-left: 4px;">${childCnt} tests</span></li>`;
+        subCatPreviewHtml += `<li><strong>${g.group}</strong> <span style="font-size: 0.78rem; background: #e0f2fe; color: #0056b3; padding: 1px 8px; border-radius: 10px; margin-left: 4px;">${childCnt} items</span></li>`;
       });
-      if (cat.groups.length > 4) {
+      if (cat.groups && cat.groups.length > 4) {
         subCatPreviewHtml += `<li style="font-weight: 700; color: var(--primary-color);">+ ${cat.groups.length - 4} more sub-categories</li>`;
       }
 
       const icon = CAT_ICONS[cat.category] || '🧪';
+      const catImg = cat.image ? cat.image : getCategoryImg(cat.category, idx);
 
       card.innerHTML = `
         <div>
+          <div style="height: 140px; margin: -20px -20px 15px -20px; overflow: hidden; border-radius: 12px 12px 0 0; background: #f8fafc;">
+            <img src="${catImg}" alt="${cat.category}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='assets/civil_testing.jpg'">
+          </div>
           <div class="main-cat-header-row">
             <span class="main-cat-icon">${icon}</span>
-            <span class="subcat-count-tag">🏷️ ${cat.groups.length} Sub-Categories</span>
+            <span class="subcat-count-tag">🏷️ ${cat.groups ? cat.groups.length : 0} Sub-Categories</span>
           </div>
           <h3 class="main-cat-title">${cat.category}</h3>
-          <div style="font-size: 0.85rem; color: #64748b; font-weight: 600;">Total Test Standards: <strong style="color: #0056b3;">${totalProducts} Products</strong></div>
+          <div style="font-size: 0.85rem; color: #64748b; font-weight: 600;">Accredited Testing & Products: <strong style="color: #0056b3;">${totalProducts} Items</strong></div>
           <ul class="subcat-preview-list">
             ${subCatPreviewHtml}
           </ul>
         </div>
         <button class="main-cat-action-btn" onclick="setCatalogTier(2, '${escapeHtml(cat.category)}', null)">
-          Browse ${cat.groups.length} Sub-Categories →
+          Browse ${cat.groups ? cat.groups.length : 0} Sub-Categories →
         </button>
       `;
 
@@ -225,17 +233,19 @@ function renderCurrentCatalogView(categories, searchQuery) {
     const mainCat = categories.find(c => c.category === window.selectedMainCategory);
     if (!mainCat) { setCatalogTier(1); return; }
 
+    const groups = mainCat.groups || [];
+
     if (catalogCount) {
       catalogCount.innerHTML = `
         <div class="tier-breadcrumb">
           <a href="javascript:void(0)" onclick="setCatalogTier(1)">Main Categories</a>
           <span>/</span>
-          <span>${mainCat.category} (${mainCat.groups.length} Sub-Categories)</span>
+          <span>${mainCat.category} (${groups.length} Sub-Categories)</span>
         </div>
       `;
     }
 
-    mainCat.groups.forEach((group, idx) => {
+    groups.forEach((group, idx) => {
       const childCount = group.items ? group.items.length : 0;
       const card = document.createElement('div');
       card.className = 'sub-cat-card';
@@ -249,12 +259,17 @@ function renderCurrentCatalogView(categories, searchQuery) {
         itemsPreview = `<li style="font-style: italic; color: #94a3b8; font-size: 0.85rem;">Standard testing & calibration available</li>`;
       }
 
+      const groupImg = group.image ? group.image : (mainCat.image || getCategoryImg(mainCat.category, idx));
+
       card.innerHTML = `
         <div>
+          <div style="height: 120px; margin: -20px -20px 12px -20px; overflow: hidden; border-radius: 12px 12px 0 0; background: #f8fafc;">
+            <img src="${groupImg}" alt="${group.group}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='assets/civil_testing.jpg'">
+          </div>
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
             <span class="card-cat-badge">${mainCat.category}</span>
             <span style="font-size: 0.8rem; background: #e0f2fe; color: #0056b3; padding: 4px 12px; border-radius: 12px; font-weight: 700; border: 1px solid #bae6fd;">
-              📦 ${childCount} Products / Tests
+              📦 ${childCount} Products & Tests
             </span>
           </div>
           <h3 class="card-title" style="font-size: 1.25rem;">${group.group}</h3>
@@ -277,7 +292,7 @@ function renderCurrentCatalogView(categories, searchQuery) {
   // -------------------------------------------------------------
   if (window.catalogTier === 3 && !searchQuery) {
     const mainCat = categories.find(c => c.category === window.selectedMainCategory);
-    const subCatGroup = mainCat ? mainCat.groups.find(g => g.group === window.selectedSubCategory) : null;
+    const subCatGroup = mainCat ? (mainCat.groups || []).find(g => g.group === window.selectedSubCategory) : null;
     
     if (!mainCat || !subCatGroup) {
       setCatalogTier(1);
@@ -302,27 +317,40 @@ function renderCurrentCatalogView(categories, searchQuery) {
       items.forEach((item, idx) => {
         const card = document.createElement('div');
         card.className = 'card-item product-card';
-        const productImg = getCategoryImg(mainCat.category, idx);
+        const productImg = item.image ? item.image : getCategoryImg(mainCat.category, idx);
+        
+        let specsHtml = '';
+        if (item.specs && item.specs.length > 0) {
+          item.specs.slice(0, 3).forEach(sp => {
+            specsHtml += `<li>✔ ${sp}</li>`;
+          });
+        } else {
+          specsHtml = `
+            <li>✔ ISO/IEC 17025 Compliant Test Procedure</li>
+            <li>✔ Rapid Field Sampling & Laboratory Analysis</li>
+            <li>✔ Official Accredited Test Certificate Report</li>
+          `;
+        }
+
+        const childGroupLabel = item.child_group ? `<div class="product-subcat-label">📁 ${item.child_group}</div>` : `<div class="product-subcat-label">📁 ${subCatGroup.group}</div>`;
         
         card.innerHTML = `
           <div>
-            <div class="card-img-wrapper">
-              <img src="${productImg}" alt="${item.title}">
+            <div class="card-img-wrapper" style="height: 180px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #ffffff;">
+              <img src="${productImg}" alt="${item.title}" style="max-height: 100%; object-fit: contain; width: 100%;" onerror="this.src='assets/logo.png'">
               <span class="product-card-badge-top">ISO 17025 ACCREDITED</span>
             </div>
             <div class="product-card-meta">
               <span class="card-cat-badge">${mainCat.category}</span>
               <span class="product-std-code">Standard #${idx + 1}</span>
             </div>
-            <div class="product-subcat-label">📁 ${subCatGroup.group}</div>
+            ${childGroupLabel}
             <h3 class="card-title" style="font-size: 1.15rem; color: #0f172a; margin-bottom: 10px; line-height: 1.4;">${item.title}</h3>
             <ul class="product-features-list">
-              <li>✔ ISO/IEC 17025 Compliant Test Procedure</li>
-              <li>✔ Rapid Field Sampling & Laboratory Analysis</li>
-              <li>✔ Official Accredited Test Certificate Report</li>
+              ${specsHtml}
             </ul>
           </div>
-          <button class="card-action-btn" onclick="openDetailModal('${escapeHtml(item.title)}', '${escapeHtml(mainCat.category)} - ${escapeHtml(subCatGroup.group)}', [])">
+          <button class="card-action-btn" onclick="openProductDetailModal('${escapeHtml(item.title)}', '${escapeHtml(mainCat.category)} - ${escapeHtml(subCatGroup.group)}', '${productImg}', ${JSON.stringify(item.specs || []).replace(/"/g, '&quot;')}, ${JSON.stringify(item.gallery || []).replace(/"/g, '&quot;')})">
             Request Price Quote & Specs →
           </button>
         `;
@@ -332,7 +360,7 @@ function renderCurrentCatalogView(categories, searchQuery) {
     } else {
       const card = document.createElement('div');
       card.className = 'card-item product-card';
-      const productImg = getCategoryImg(mainCat.category, 0);
+      const productImg = subCatGroup.image ? subCatGroup.image : getCategoryImg(mainCat.category, 0);
       card.innerHTML = `
         <div>
           <div class="card-img-wrapper">
@@ -367,9 +395,9 @@ function renderCurrentCatalogView(categories, searchQuery) {
   }
 
   categories.forEach((cat, cIdx) => {
-    cat.groups.forEach((group, gIdx) => {
+    (cat.groups || []).forEach((group, gIdx) => {
       const titleMatch = group.group.toLowerCase().includes(searchQuery);
-      const itemsMatch = group.items.some(item => item.title.toLowerCase().includes(searchQuery));
+      const itemsMatch = (group.items || []).some(item => item.title.toLowerCase().includes(searchQuery));
 
       if (!titleMatch && !itemsMatch) return;
 
@@ -377,11 +405,11 @@ function renderCurrentCatalogView(categories, searchQuery) {
 
       const card = document.createElement('div');
       card.className = 'card-item product-card';
-      const searchImg = getCategoryImg(cat.category, gIdx);
+      const searchImg = group.image ? group.image : getCategoryImg(cat.category, gIdx);
 
       let itemsListHtml = '';
       if (group.items && group.items.length > 0) {
-        group.items.forEach(it => {
+        group.items.slice(0, 5).forEach(it => {
           itemsListHtml += `<li>✔ ${it.title}</li>`;
         });
       } else {
@@ -390,21 +418,21 @@ function renderCurrentCatalogView(categories, searchQuery) {
 
       card.innerHTML = `
         <div>
-          <div class="card-img-wrapper">
-            <img src="${searchImg}" alt="${group.group}">
+          <div class="card-img-wrapper" style="height: 160px; overflow: hidden; background: #ffffff;">
+            <img src="${searchImg}" alt="${group.group}" style="width: 100%; height: 100%; object-fit: contain;" onerror="this.src='assets/logo.png'">
             <span class="product-card-badge-top">ISO 17025 ACCREDITED</span>
           </div>
           <div class="product-card-meta">
             <span class="card-cat-badge">${cat.category}</span>
-            <span class="product-std-code">${group.items.length} Child Standards</span>
+            <span class="product-std-code">${group.items.length} Standard Products</span>
           </div>
           <h3 class="card-title" style="font-size: 1.2rem; margin-bottom: 10px;">${group.group}</h3>
           <ul class="product-features-list">
             ${itemsListHtml}
           </ul>
         </div>
-        <button class="card-action-btn" onclick="openDetailModal('${escapeHtml(group.group)}', '${escapeHtml(cat.category)}', ${JSON.stringify(group.items).replace(/"/g, '&quot;')})">
-          View Specifications & Quote →
+        <button class="card-action-btn" onclick="setCatalogTier(3, '${escapeHtml(cat.category)}', '${escapeHtml(group.group)}')">
+          View All ${group.items.length} Products & Standards →
         </button>
       `;
 
@@ -464,13 +492,17 @@ function renderSubPageGrid(categories, targetCatName, subGroupFilter) {
 
     if (childItems.length > 0) {
       childItems.forEach(child => {
+        const itemImg = child.image ? child.image : 'assets/logo.png';
         childCardsHtml += `
-          <div class="child-item-card">
-            <div>
-              <div class="child-item-title">${child.title}</div>
+          <div class="child-item-card" style="display: flex; gap: 12px; align-items: center;">
+            <div style="width: 60px; height: 60px; flex-shrink: 0; background: #fff; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; display: flex; align-items: center; justify-content: center;">
+              <img src="${itemImg}" alt="${child.title}" style="max-height: 100%; max-width: 100%; object-fit: contain;" onerror="this.src='assets/logo.png'">
             </div>
-            <div class="child-item-action" onclick="openDetailModal('${escapeHtml(child.title)}', '${escapeHtml(targetCat.category)} - ${escapeHtml(group.group)}', [])">
-              View Standards & Quote →
+            <div style="flex: 1;">
+              <div class="child-item-title">${child.title}</div>
+              <div class="child-item-action" onclick="openProductDetailModal('${escapeHtml(child.title)}', '${escapeHtml(targetCat.category)} - ${escapeHtml(group.group)}', '${itemImg}', ${JSON.stringify(child.specs || []).replace(/"/g, '&quot;')}, ${JSON.stringify(child.gallery || []).replace(/"/g, '&quot;')})">
+                View Standards & Quote →
+              </div>
             </div>
           </div>
         `;
@@ -493,7 +525,7 @@ function renderSubPageGrid(categories, targetCatName, subGroupFilter) {
           <span>📁</span>
           <span>${group.group}</span>
         </div>
-        <span class="group-count-badge">${childItems.length} Child Standard Products</span>
+        <span class="group-count-badge">${childItems.length} Products & Tests</span>
       </div>
       <div class="child-items-grid">
         ${childCardsHtml}
@@ -502,10 +534,6 @@ function renderSubPageGrid(categories, targetCatName, subGroupFilter) {
 
     container.appendChild(groupCard);
   });
-
-  if (count === 0) {
-    container.innerHTML = '<p style="color: #64748b; background: #fff; padding: 30px; border-radius: var(--radius-md);">No testing standards match the selected sub-category filter.</p>';
-  }
 }
 
 // Sidebar Subgroup Filter Click Handler
@@ -540,8 +568,9 @@ function handleLiveSearchDropdown(categories, query) {
   let count = 0;
 
   categories.forEach(cat => {
-    cat.groups.forEach(group => {
-      if (group.group.toLowerCase().includes(query) || group.items.some(i => i.title.toLowerCase().includes(query))) {
+    (cat.groups || []).forEach(group => {
+      const matchItems = (group.items || []).filter(i => i.title.toLowerCase().includes(query));
+      if (group.group.toLowerCase().includes(query) || matchItems.length > 0) {
         if (count >= 6) return;
         count++;
 
@@ -549,11 +578,11 @@ function handleLiveSearchDropdown(categories, query) {
         item.className = 'search-result-item';
         item.innerHTML = `
           <div class="search-result-title">${group.group}</div>
-          <div class="search-result-cat">${cat.category} • ${group.items.length} Child Standard Tests</div>
+          <div class="search-result-cat">${cat.category} • ${group.items ? group.items.length : 0} Products / Standards</div>
         `;
         item.onclick = () => {
           dropdown.classList.remove('active');
-          openDetailModal(group.group, cat.category, group.items);
+          window.location.href = `catalog.html`;
         };
         dropdown.appendChild(item);
       }
@@ -585,7 +614,59 @@ function setupModals() {
   };
 }
 
-// Detail View Modal
+// Rich Product Detail Modal
+window.openProductDetailModal = function(title, cat, image, specs, gallery) {
+  const detailModal = document.getElementById('detail_modal');
+  const titleEl = document.getElementById('detail_modal_title');
+  const bodyEl = document.getElementById('detail_modal_body');
+
+  if (!detailModal || !titleEl || !bodyEl) return;
+
+  titleEl.innerText = title;
+  
+  let specsList = '';
+  if (specs && specs.length > 0) {
+    specs.forEach(sp => {
+      specsList += `<li style="padding: 6px 0; border-bottom: 1px solid #f1f5f9; font-size: 0.9rem; color: #334155;">✔ ${sp}</li>`;
+    });
+  } else {
+    specsList = `<li style="padding: 8px 0; color: #64748b;">Comprehensive testing procedures and ISO 17025 compliant calibration available for this apparatus.</li>`;
+  }
+
+  let galleryHtml = '';
+  if (gallery && gallery.length > 0) {
+    galleryHtml = `
+      <div style="display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; padding-bottom: 6px;">
+        ${gallery.map(img => `<img src="${img}" style="width: 60px; height: 60px; object-fit: contain; border: 1px solid #e2e8f0; border-radius: 6px; padding: 2px; background: #fff;" onerror="this.style.display='none'">`).join('')}
+      </div>
+    `;
+  }
+
+  bodyEl.innerHTML = `
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 15px;">
+      <div style="width: 140px; height: 140px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+        <img src="${image}" alt="${title}" style="max-width: 100%; max-height: 100%; object-fit: contain;" onerror="this.src='assets/logo.png'">
+      </div>
+      <div style="flex: 1; min-width: 200px;">
+        <span class="card-cat-badge" style="display: inline-block; margin-bottom: 8px;">${cat}</span>
+        <div style="font-size: 0.85rem; color: #16a34a; font-weight: 700; margin-bottom: 6px;">● Available for Official Sourcing & Calibration</div>
+        <div style="font-size: 0.85rem; color: #64748b;">Certified to international ASTM, BS, EN, and ISO testing benchmarks.</div>
+        ${galleryHtml}
+      </div>
+    </div>
+    <h4 style="margin-bottom: 8px; color: var(--primary-color); font-size: 1rem;">Accredited Specifications & Test Standards:</h4>
+    <ul style="list-style: none; margin-bottom: 20px; max-height: 220px; overflow-y: auto;">
+      ${specsList}
+    </ul>
+    <button class="btn-primary" style="width: 100%; justify-content: center;" onclick="closeDetailModal(); openQuoteModal();">
+      Request Official Price Quote & Datasheet →
+    </button>
+  `;
+
+  detailModal.classList.add('active');
+};
+
+// Generic Detail Modal
 window.openDetailModal = function(title, cat, items) {
   const detailModal = document.getElementById('detail_modal');
   const titleEl = document.getElementById('detail_modal_title');
